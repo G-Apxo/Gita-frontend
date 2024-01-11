@@ -72,8 +72,8 @@ seats.forEach((seat) => {
   const seatEl = document.createElement("div");
   seatEl.classList.add("seat_places");
   seatEl.innerHTML = `
-        <h1>${seat.seat}</h1>
-        <h2>${seat.price}</h2>
+    <h1>${seat.seat}</h1>
+    <h2>${seat.price}</h2>
     `;
   places.appendChild(seatEl);
 });
